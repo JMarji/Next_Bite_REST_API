@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4e3eca48-4c13-4d77-9b3f-8d20dcf38941" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/.metadata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/app/src/debug/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/app/src/main/kotlin/com/example/next_bite/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/app/src/profile/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/android/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/Cabin-Italic-VariableFont_wdth,wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/Cabin-VariableFont_wdth,wght.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/Cabin.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/Cabin-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/Cabin-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/Cabin-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/Cabin-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/Cabin-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/Cabin-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/Cabin-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/Cabin-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinCondensed-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinCondensed-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinCondensed-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinCondensed-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinCondensed-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinCondensed-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinCondensed-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinCondensed-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinSemiCondensed-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinSemiCondensed-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinSemiCondensed-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinSemiCondensed-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinSemiCondensed-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinSemiCondensed-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinSemiCondensed-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/fonts/static/CabinSemiCondensed-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next bite.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final-01.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final-02.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final-02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final-03.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final-03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final-04.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final-04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final-big.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final-crop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final.ai" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/assets/images/logo/Next-bite-Logo-final.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Flutter/Debug.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Flutter/Release.xcconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/BLOCs/BaseProvider.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/BLOCs/DeckBloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/BLOCs/DeckEvent.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/BLOCs/DeckState.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/BLOCs/user_bloc.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/BLOCs/user_event.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/BLOCs/user_state.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/DataLayer/FoodApiProvider.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/DataLayer/FoodData.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/DataLayer/GeneralRepository.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/PresentationLayer/Favs.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/PresentationLayer/Home.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/PresentationLayer/Loading.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/PresentationLayer/Login.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/PresentationLayer/SwipeCard.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/PresentationLayer/User.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/PresentationLayer/favs_card.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/base/BasePage.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/base/BasicPageMixin.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/base/BasicPagewNavMixin.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/helpers/sizes_helpers.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/lib/main.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/pubspec.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../next_bite/test/widget_test.dart" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="terno10e" />
+  </component>
+  <component name="ProjectId" id="1wTGzFtY4fGokMcISA2bqFgqCEM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4e3eca48-4c13-4d77-9b3f-8d20dcf38941" name="Default Changelist" comment="" />
+      <created>1628475425634</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628475425634</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="696" y="177" width="1022" height="737" key="SettingsEditor" timestamp="1628476027141">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="696" y="177" width="1022" height="737" key="SettingsEditor/72.27.1848.1053/0.1080.1920.515@72.27.1848.1053" timestamp="1628476027141" />
+  </component>
+</project>
