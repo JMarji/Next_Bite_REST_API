@@ -5,4 +5,4 @@
    1. CRUD on user data
    2. Auth JWT on user data
 
-2. enable https
+2. enable httpsgit
