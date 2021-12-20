@@ -1,12 +1,12 @@
 //! tests/subscribe_returns_a_400_when_data_is_missing
 
-use nb_backend::spawn_app;
+use nb_backend::startup::spawn_app;
 use reqwest;
 
 #[actix_rt::test]
 async fn subscribe_returns_a_400_when_data_is_missing() {
     //Arrange
-    let app_address = spawn_app();
+    let test_app = spawn_app().await;
     let client = reqwest::Client::new();
     let test_cases = vec![
         ("name=joe", "missing the email"),
@@ -18,7 +18,7 @@ async fn subscribe_returns_a_400_when_data_is_missing() {
     for (invalid_body, error_message) in test_cases {
         //Act
         let response = client
-            .post(&format!("{}/sign_up", &app_address))
+            .post(&format!("{}/sign_up", &test_app.address))
             .header("Content-Type", "application/x-www-form-urlencoded")
             .body(invalid_body)
             .send()

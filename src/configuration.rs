@@ -1,14 +1,7 @@
 //! src/configuration.rs
 
-#![allow(dead_code, unused_imports)]
-
 use color_eyre::Result;
 use config;
-use eyre::WrapErr;
-use serde::Deserialize;
-use std::convert::TryInto;
-use tracing::{event, instrument, Level};
-use tracing_subscriber::EnvFilter;
 
 #[derive(serde::Deserialize)]
 pub struct Settings {
@@ -32,6 +25,12 @@ impl DatabaseSettings {
             self.username, self.password, self.host, self.port, self.database_name
         )
     }
+    pub fn connection_string_without_db(&self) -> String {
+        format!(
+            "postgres://{}:{}@{}:{}",
+            self.username, self.password, self.host, self.port
+        )
+    }
 }
 
 pub fn get_configuration() -> Result<Settings, config::ConfigError> {
@@ -47,28 +46,3 @@ pub fn get_configuration() -> Result<Settings, config::ConfigError> {
     // our Settings type
     settings.try_into()
 }
-
-/*
-#[derive(Debug, Deserialize, Default)]
-pub struct Config {
-    pub host: String,
-}
-
-impl Config {
-    #[instrument]
-    pub fn get_config() -> Result<Config> {
-        tracing_subscriber::fmt()
-            .with_env_filter(EnvFilter::from_default_env())
-            .init();
-
-        let server_config = Config {
-            host: String::from("127.0.0.1:7474"),
-        };
-
-        server_config
-            .try_into()
-            .context("loading configuration from environment")
-    }
-}
-
- */
