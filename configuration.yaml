@@ -1,0 +1,10 @@
+# configuration.yaml
+application_port: 0
+
+database:
+  host: "nbd.madhat.org"
+  port: 5432
+  username: "postgres"
+  password: "postgres"
+  database_name: "NextBite"
+
