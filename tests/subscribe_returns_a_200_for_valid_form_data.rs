@@ -4,7 +4,6 @@ use nb_backend::configuration::get_configuration;
 use nb_backend::spawn_app;
 use reqwest;
 use sqlx::{Connection, PgConnection};
-//use std::net::TcpListener;
 
 #[actix_rt::test]
 async fn subscribe_returns_a_200_for_valid_form_data() {
@@ -15,7 +14,7 @@ async fn subscribe_returns_a_200_for_valid_form_data() {
     let configuration = get_configuration().expect("Failed to read configuration");
     //Act
     let response = client
-        .post(&format!("{}/subscriptions", &app_address))
+        .post(&format!("{}/sign_up", &app_address))
         .header("Content-Type", "application/x-www-form-urlencoded")
         .body(body)
         .send()
@@ -31,7 +30,7 @@ async fn subscribe_returns_a_200_for_valid_form_data() {
 
     //Assert
 
-    let saved = sqlx::query!("SELECT email, name FROM Users",)
+    let saved = sqlx::query!("SELECT email, name FROM users",)
         .fetch_one(&mut connection)
         .await
         .expect("Failed to fetch saved User");

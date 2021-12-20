@@ -1,62 +1,18 @@
-#![allow(dead_code, unused_imports)]
+//! src/main.rs
 
-use actix_web::{get, post, web, App, HttpResponse, HttpServer, middleware::Logger, Responder};
-use color_eyre::Result;
-use std::env;
-use tracing::info;
-use crate::vars::Config;
-use crate::register::Register;
-use r2d2::Pool;
-use r2d2_mongodb::{ConnectionOptions, MongodbConnectionManager, VerifyPeer};
-use openssl::ssl::{SslAcceptor, SslFiletype, SslMethod};
-
-mod vars;
-mod register; 
-mod handlers;
-
+use actix_web;
+use nb_backend::configuration::get_configuration;
+use nb_backend::startup::startup;
+use std::net::TcpListener;
 
 #[actix_web::main]
-async fn main() -> Result<()> {
+async fn main() -> std::io::Result<()> {
+    // Panic if we can't read configuration
+    let configuration = get_configuration().expect("Failed to read configuration.");
 
+    // We have removed the hard-coded application port - it's now coming our settings
+    let address = format!("127.0.0.1:{}", configuration.application_port);
+    let listener = TcpListener::bind(address)?;
 
-    
-    env::set_var("RUST_LOG", "actix_web=debug");
-
-    color_eyre::install()?; 
-
-   let manager = MongodbConnectionManager::new(
-        ConnectionOptions::builder()
-            .with_host("localhost", 27020)
-            .with_db("actix_users")
-            .build()
-    ); // set up config for mongo connection
-
-    let pool = Pool::builder()
-        .max_size(16)
-        .build(manager)
-        .unwrap(); // instantiat connection pool 
-
-
-
-    let serv_config = Config::get_config()
-        .expect("Server configuration");
-
-    info!("Starting server at {}", serv_config.host);
-
-    HttpServer::new(move || {
-        App::new()
-            .wrap(Logger::default())
-            .data(pool.clone())
-           // .service(handlers::hello)
-           // .service(handlers::user)
-            .service(handlers::reguser)
-            //.service(handlers::index)
-            //.service(handlers::extract)
-           // .route("/hey", web::get().to(handlers::manual_hello))
-    })
-    .bind(serv_config.host)?
-    .run()
-    .await?;
-
-   Ok(())
+    startup(listener)?.await
 }
